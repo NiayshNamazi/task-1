@@ -1,7 +1,23 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/public/*" : ["./public/*"],
+      // "@/models/*" : ["./models/*"],
+      "@/src/*" : ["./src/*"],
+      "@/src/app/*" : ["./src/app/*"],
+      "@/components/*" : ["./components/*"],
+      // "@/utils/*" : ["./utils/*"],
+      "@/public/assets/*" : ["./public/assets/*"],
+      "@/public/assets/fonts/*" : ["./public/assets/fonts/*"],
+      "@/public/assets/picture/*" : ["./public/assets/picture/*"],
+      "@/components/layout/*" : ["./components/layout/*"],
+      "@/components/layout/styles/*" : ["./components/layout/styles/*"],
+      // "@/components/models/*" : ["./components/models/*"],
+      // "@/components/templates/*" : ["./components/templates/*"],
+      "@/components/core/*" : ["./components/core/*"],
+      "@/components/core/styles/*" : ["./components/core/styles/*"],
+      "@/src/app/signup/*" : ["./src/app/signup/*"],
     }
   }
 }
